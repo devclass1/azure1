@@ -1,5 +1,0 @@
-az ad sp create-for-rbac --role="Contributor" --scopes="/subscriptions/<subscription_id>"
-az login --service-principal -u <service_principal_name> -p "<service_principal_password>" --tenant "<service_principal_tenant>"
-az account show
-az account list --query "[].{name:name, subscriptionId:id}"
-az account set --subscription="<subscription_id>"
